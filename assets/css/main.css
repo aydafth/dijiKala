@@ -1,0 +1,160 @@
+@font-face {
+  font-family: djkala;
+  src: url(/assets/Fonts/fontAwesome/fa-light.min.css);
+}
+@media (max-width: 991.98px) {
+  #diplay-none {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .horizontal-scroll {
+    overflow-x: hidden;
+    white-space: normal;
+  }
+}
+body {
+  direction: rtl;
+  padding-top: 70px;
+  font-family: djkala;
+}
+body .fixed-top {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+body .img_icon_djkala {
+  width: 200px;
+}
+body .img_sreach {
+  width: 600px;
+}
+body .imgStory {
+  width: 80px;
+  border: solid 2px rgba(216, 8, 235, 0.705);
+  padding: 2px;
+  margin: 5px;
+}
+body .divlable {
+  justify-items: center;
+  white-space: normal;
+}
+body .imglabel {
+  width: 50px;
+}
+body .icon_more {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(95, 94, 97, 0.712);
+}
+body .imglable-more {
+  width: 60px;
+  margin: 50px;
+}
+body .row_shegeftangiz {
+  border-radius: 15px;
+}
+body .shtext {
+  height: 50px;
+}
+body .icon_dastebande {
+  width: 20px;
+  margin-left: 10px;
+}
+body .images_label {
+  height: 240px;
+  width: auto;
+  border-radius: 30px;
+  padding: 5px;
+}
+body .images_lable_sm {
+  padding: 5px;
+  border-radius: 20px;
+  width: 100%;
+}
+body .img_logo {
+  width: 100px;
+}
+body .div_justify_items {
+  justify-items: center;
+}
+body .img_gif {
+  width: 640px;
+  border-radius: 20px;
+}
+body .img_mark {
+  height: 120px;
+  width: 120px;
+  border-left: solid 1px rgb(230, 231, 236);
+  padding: 10px;
+}
+body .img_favorit {
+  width: 120px;
+}
+body .backgrand_color1 {
+  background-color: #007295;
+  height: 90px;
+  border-radius: 20px;
+}
+body .back_grand {
+  width: 280px;
+  background-color: white;
+}
+body .img_charkh {
+  width: 200px;
+  height: 75px;
+}
+body .img-forosh {
+  width: 90px;
+}
+body .img_foter {
+  height: 270px;
+}
+body .img-slider-sm {
+  width: 800px;
+  height: 150px;
+}
+body .tooltip-container {
+  display: inline-block;
+  position: relative;
+}
+body .tooltip-text {
+  visibility: hidden;
+  width: 220px;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  color: #000;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+body .tooltip-container:hover .tooltip-text {
+  visibility: visible;
+}
+body .tooltip-box {
+  width: 100px;
+  margin: 0 2px;
+}
+body .fixed-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+body .fixed-iconS {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+/*# sourceMappingURL=main.css.map */
